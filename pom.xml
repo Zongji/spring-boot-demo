@@ -25,5 +25,17 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <!-- SkyWalking Toolkit for Trace -->
+        <dependency>
+            <groupId>org.apache.skywalking</groupId>
+            <artifactId>apm-toolkit-trace</artifactId>
+            <version>9.3.0</version>
+        </dependency>
+        <!-- SkyWalking Toolkit for Logback -->
+        <dependency>
+            <groupId>org.apache.skywalking</groupId>
+            <artifactId>apm-toolkit-logback-1.x</artifactId>
+            <version>9.3.0</version>
+        </dependency>
     </dependencies>
 </project>
